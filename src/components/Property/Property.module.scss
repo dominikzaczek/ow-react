@@ -1,0 +1,25 @@
+.container{
+    background-color: white;
+    padding: 1em;
+    border-radius: 25px;
+    display: grid;
+    grid-template-columns: 1fr;
+
+    @media screen and (min-width: 992px) {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.tenure{
+    background-color: lightcoral;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    border-radius: 25px;
+}
+.propertyMeta{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
