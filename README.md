@@ -23,8 +23,8 @@ The app is divided into two main parts - the table and the property details.
 
 ## Improvements
 I decided to cap the time allocated to this task (180 minutes) to give you a realistic view of my skills. There are many things I would like to improve, including:
-1. Implementing more unit tests, specifically mocking tests to use the power of jest
-2. Making the components more reusable and tidying up the folder structure
+1.  Making the components more reusable
+2. Improving the responsiveness
 3. Rewriting the challenge in TypeScript
 
 ## Afterword
