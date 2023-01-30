@@ -1,8 +1,6 @@
 import React from 'react'
 import styles from './Table.module.scss'
-import {
-    BsFillArrowRightCircleFill,
-} from 'react-icons/bs'
+import { BsFillArrowRightCircleFill } from 'react-icons/bs'
 
 function TableRow({ titleNumber, tenure, propertyAddress, header }) {
     return (
@@ -10,9 +8,12 @@ function TableRow({ titleNumber, tenure, propertyAddress, header }) {
             <span role="cell" className={styles.tableCell}>
                 {titleNumber}
                 {!header && (
-                    <a href={`/property/${titleNumber}`} className={styles.arrow}>
+                    <a
+                        href={`/property/${titleNumber}`}
+                        className={styles.arrow}
+                    >
                         details <BsFillArrowRightCircleFill />
-                     </a>
+                    </a>
                 )}
             </span>
 
@@ -26,6 +27,7 @@ function TableRow({ titleNumber, tenure, propertyAddress, header }) {
         </div>
     )
 }
+
 export default function Table({ items }) {
     return (
         <div className="table">

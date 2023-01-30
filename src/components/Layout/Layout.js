@@ -1,9 +1,11 @@
-export default function Layout({children}){
-return <div className="App">
-            <header className="App-header">
-                <div className="container">
-                    {children}
-                </div>
+import styles from './Layout.module.scss'
+
+export default function Layout({ children }) {
+    return (
+        <div>
+            <header className={styles.appHeader}>
+                <div className={styles.container}>{children}</div>
             </header>
         </div>
+    )
 }

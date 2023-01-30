@@ -10,21 +10,21 @@
     border-left: 0;
     transition: all 0.3s;
 
-    // &:hover{ 
+    // &:hover{
     //     cursor: pointer;
     //     background-color: coral;
     // }
 
-    &:first-of-type{
+    &:first-of-type {
         border-radius: 10px 10px 0 0;
         background-color: lightcoral;
 
-        &:hover{
+        &:hover {
             background-color: lightcoral;
         }
     }
 
-    &:last-of-type{
+    &:last-of-type {
         border-radius: 0 0 10px 10px;
         border-bottom: 0;
     }
@@ -32,13 +32,12 @@
     @media screen and (min-width: 992px) {
         grid-template-columns: 1fr 1fr 3fr;
     }
-
 }
 span {
     padding: 10px;
 }
 
-.tableCell{
+.tableCell {
     border: 1px solid lightcoral;
     border-top: 0;
     border-bottom: 0;
@@ -47,14 +46,13 @@ span {
     justify-content: space-between;
     gap: 10px;
 
-    &:first-of-type{
+    &:first-of-type {
         border: 0;
     }
 
-    &:last-of-type{
+    &:last-of-type {
         border: 0;
     }
-
 }
 
 .propertyAddress {
@@ -64,8 +62,8 @@ span {
     }
 }
 
-.arrow{
-    background-color:lightcoral;
+.arrow {
+    background-color: lightcoral;
     color: white;
     border-radius: 25px;
     padding: 5px 10px;
@@ -74,18 +72,17 @@ span {
     gap: 10px;
     font-size: 15px;
     transition: all 0.3s;
-    &:hover{
+    &:hover {
         background-color: black;
         color: lightcoral;
-
     }
 }
 
-.sortingButton{
+.sortingButton {
     color: #000;
     transition: all 0.3s;
     border-radius: 25px;
-    &:hover{
+    &:hover {
         background-color: lightblue;
         cursor: pointer;
     }
