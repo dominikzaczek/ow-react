@@ -23,8 +23,10 @@ p {
 
 .container{
   width: 90vw;
+  margin-top: 1em;
+  margin-bottom: 1em;
   @media screen and (min-width: 992px) {
-
+    margin: 0;
   }
   
 }
@@ -48,6 +50,7 @@ p {
 
 a{
   color: lightcoral;
+  text-decoration: none;
   transition: all 0.3s;
     &:hover{
         color: black;

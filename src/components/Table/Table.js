@@ -10,8 +10,8 @@ function TableRow({ titleNumber, tenure, propertyAddress, header }) {
             <span role="cell" className={styles.tableCell}>
                 {titleNumber}
                 {!header && (
-                    <a href={`/property/${titleNumber}`}>
-                        <BsFillArrowRightCircleFill className={styles.arrow} />
+                    <a href={`/property/${titleNumber}`} className={styles.arrow}>
+                        details <BsFillArrowRightCircleFill />
                      </a>
                 )}
             </span>

@@ -20,7 +20,6 @@ export default function Controls({
                         Next Page <IoIosArrowForward />
                     </button>
                 )}
-                
             </div>
             <div>
             <select onChange={(e) => onChangeItemsPerPage(e.target.value)} role="listbox">
