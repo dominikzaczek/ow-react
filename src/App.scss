@@ -1,40 +1,40 @@
 select {
-  background-color: lightcoral;
-  border: 0;
-  padding: 10px;
-  color: white;
-  border-radius: 5px;
-  margin: 10px;
-  font-weight: bold;
+    background-color: lightcoral;
+    border: 0;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    margin: 10px;
+    font-weight: bold;
 }
 
 p {
-  margin-top: 0;
+    margin-top: 0;
 }
 
 .control {
-  font-size: 15px;
-  font-weight: bold;
-  color: white;
-  background-color: lightcoral;
-  border: 0;
-  padding: 10px;
-  margin: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 5px;
-  cursor: pointer;
-  &:hover {
-    background-color: coral;
-  }
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: lightcoral;
+    border: 0;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    cursor: pointer;
+    &:hover {
+        background-color: coral;
+    }
 }
 
 a {
-  color: lightcoral;
-  text-decoration: none;
-  transition: all 0.3s;
-  &:hover {
-    color: black;
-  }
+    color: lightcoral;
+    text-decoration: none;
+    transition: all 0.3s;
+    &:hover {
+        color: black;
+    }
 }

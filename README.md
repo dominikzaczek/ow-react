@@ -22,10 +22,7 @@ The app is divided into two main parts - the table and the property details.
 2. If there is no property with corresponding title number provided in the url params, 404 component will be returned instead
 
 ## Improvements
-I decided to cap the time allocated to this task (180 minutes) to give you a realistic view of my skills. There are many things I would like to improve, including:
-1.  Making the components more reusable
-2. Improving the responsiveness
-3. Rewriting the challenge in TypeScript
+I decided to cap the time allocated to this task (180 minutes) to give you a realistic view of my skills. There are certain things that I would like to improve - I am happy to discuss that if you would be interested in having a follow-up call.
 
 ## Afterword
 Thank you for giving me a chance to show my skills. I hope to hear back from you soon. 

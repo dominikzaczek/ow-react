@@ -11,6 +11,7 @@ export default function Home({ items }) {
 
     useEffect(() => {
         const properties = reverse ? items.reverse() : items
+
         setItemsToDisplay(
             properties.slice(page * perPage, page * perPage + perPage)
         )
@@ -18,6 +19,7 @@ export default function Home({ items }) {
 
     function handleUpdateItemsPerPage(value) {
         setPerPage(value)
+        setPage(0)
     }
 
     function handleChangePage(value) {

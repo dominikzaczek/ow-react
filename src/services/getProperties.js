@@ -1,13 +1,13 @@
 export default async function getProperties() {
-  const fetchData = await fetch(
-    'https://owfetechtask.blob.core.windows.net/titledata/testdata.json'
-  );
+    const fetchData = await fetch(
+        'https://owfetechtask.blob.core.windows.net/titledata/testdata.json'
+    )
 
-  if (fetchData.ok) {
-    const json = await fetchData.json();
+    if (fetchData.ok) {
+        const json = await fetchData.json()
 
-    return json;
-  }
+        return json
+    }
 
-  return null;
+    return null
 }
